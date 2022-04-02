@@ -1,0 +1,13 @@
+.recommendedContainer
+{
+    flex:0.8;
+    background-color: #f9f9f9;
+    padding-left:20px;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.videconatiner{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,53 @@
+.videocard{
+    width:270px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+.videocard__thumbnail{
+    height:140px;
+    width:100%;
+    object-fit: cover;
+
+}
+.video__info{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    
+}
+.video__icon{
+    cursor:pointer;
+}
+.avatar{
+    height:40px;
+    width:40px;
+    
+}
+
+.video__text{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+.video__text >span{
+    font-size:1.6rem;
+    line-height:2.2rem;
+    display: block;
+    overflow:hidden;
+    max-height:4.4rem;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+    font-weight:bold;
+    text-overflow: ellipsis;
+}
+.video__text>p{
+    font-size: 0.9rem;
+    color:gray;
+    font-weight: 500;
+
+}

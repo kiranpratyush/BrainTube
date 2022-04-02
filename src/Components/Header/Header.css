@@ -1,0 +1,54 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background-color: white;
+}
+.header__logo{
+    height:50px;
+    object-fit: contain;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.header__input{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width:40%;
+    border:1px solid lightgray;
+}
+.header__input input{
+    border:none;
+    align-items:stretch;
+    padding:5px;
+    outline:none;
+    font-size: 20px;
+    width:80%;
+    
+    
+    
+}
+.header__inputButton{
+    padding:10px;
+    color:gray;
+    background-color: #fafafa;
+    font-size: 20px;
+    border-left:1px solid lightgray
+}
+
+.header button{
+    background: none;
+    border:none;
+    font:inherit;
+    cursor:pointer;   
+    padding:10px;  
+    background-color: black;     
+    color:white;       
+}
