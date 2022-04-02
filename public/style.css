@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  min-height: 100%;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
