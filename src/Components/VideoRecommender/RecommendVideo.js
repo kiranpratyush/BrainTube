@@ -15,7 +15,6 @@ export function VideoRecommend() {
   }, []);
 
   return (
-    // title, timeStamp, views, profileImage, videoImage,channel
     <div className="recommendedContainer" id="videoContainer">
       {isLoading ? (
         <h3>Loading...</h3>
