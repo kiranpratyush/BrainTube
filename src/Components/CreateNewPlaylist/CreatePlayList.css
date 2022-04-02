@@ -1,0 +1,31 @@
+.createplaylist__container{
+    display: flex;
+    flex-direction: column;
+    row-gap:20px;
+}
+.createplaylist__label{
+    color:white;
+    font-size: 1.3rem;
+}
+
+
+.createplaylist__input{
+    background: none;
+    border:none;
+    display: inline-block;
+    height:40px;
+    outline: none;
+    color:white;
+    font-size: 1.3rem;
+
+}
+.createplaylist__input:focus{
+    border-bottom: 2px solid white;
+}
+
+
+.createplaylist__button{
+    font: inherit;
+    font-size: 1.3rem;
+
+}
