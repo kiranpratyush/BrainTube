@@ -1,0 +1,33 @@
+.sidebar__row{
+    display: flex;
+    padding:20px 0;
+    margin-bottom: 10px;
+}
+.sidebar__row a{
+    text-decoration: none;
+    color:inherit;
+}
+.sidebar__row:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.sidebar__row__icon{
+    padding-right: 10px;
+    color:gray;
+}
+
+.sidebar__row__title{
+    font-size:1.1rem;
+    flex:1;
+    margin-left:10px;
+}
+
+.sidebar__row:hover > .sidebar__row__icon{
+    color:red;
+}
+.sidebar__row:hover > .sidebar__row__title{
+    font-weight: 700;
+}
+.sidebar__row.selected{
+    background-color: lightgray;
+}
