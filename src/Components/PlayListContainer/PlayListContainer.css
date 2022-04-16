@@ -5,5 +5,31 @@
     flex:0.8;
     margin-top:19px;
     row-gap:10px;
-    position:relative;
+}
+.playlist__modal{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background: rgba(0, 0, 0,0.5);
+    align-self: flex-start;
+    height: 100%;
+    width: 100%;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playlist__modal button{
+    background:none;
+    font:inherit;
+    border:none;
+    color:white; 
+    background:black;   
+    outline: none; 
+    padding:10px;
+    cursor:pointer      
+}
+.playlist__modal button:focus{
+    outline:none;
+    border:2px solid black;
 }
