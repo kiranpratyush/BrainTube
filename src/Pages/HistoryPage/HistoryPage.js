@@ -17,7 +17,6 @@ export function HistoryPage() {
       setLoading(false);
     });
   }, [state, dispatch]);
-  console.log(historyVideo);
   return (
     <>
       <Header />
